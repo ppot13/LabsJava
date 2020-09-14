@@ -11,7 +11,15 @@ public class Author {
        this.gender = gender;
        this.email = email;
 
+        if (this.gender=='m' | this.gender=='f' | this.gender=='u' );
+        else {
+            System.out.println("Please your gender correctly");
+            System.exit(0);
+        }
+
     }
+
+
 
     public void setName(String name) {
         this.name = name;
@@ -22,8 +30,9 @@ public class Author {
     }
 
     public void setGender(char gender) {
-        this.gender = gender;
+            this.gender = gender;
     }
+
 
       public String getName(){
             return name;
@@ -33,9 +42,9 @@ public class Author {
         return email;
     }
 
-    public char getGender() {
+     public char getGender() {
         return gender;
-    }
+         }
 
     public String toString() {
         return  name + " (" + gender + ") at " + email;
