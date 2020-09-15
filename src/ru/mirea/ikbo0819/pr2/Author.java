@@ -13,7 +13,7 @@ public class Author {
 
         if (this.gender=='m' | this.gender=='f' | this.gender=='u' );
         else {
-            System.out.println("Please your gender correctly");
+            System.out.println("Please enter your gender correctly");
             System.exit(0);
         }
 
