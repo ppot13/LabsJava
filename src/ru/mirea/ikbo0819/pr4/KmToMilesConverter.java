@@ -97,7 +97,7 @@ public class KmToMilesConverter extends JFrame
 
     /**
      *  The main method creates an instance of the
-     *  KiloConverterWindow class, which displays
+     *  KmtoMilesConverter class, which displays
      *  a window on the screen.
      */
 
