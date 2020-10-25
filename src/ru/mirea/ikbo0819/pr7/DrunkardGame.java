@@ -1,5 +1,5 @@
 package ru.mirea.ikbo0819.pr7;
-
+// comment 1
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
